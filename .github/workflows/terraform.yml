@@ -12,7 +12,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: ./path_to_terraform_directory
+        working-directory: .github/workflows/terraform.yml
 
     steps:
     - name: Checkout repository
