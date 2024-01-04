@@ -12,7 +12,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: ${{ branches.main }}
+        working-directory:
 
     steps:
     - name: Checkout repository
