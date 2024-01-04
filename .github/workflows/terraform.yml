@@ -12,7 +12,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: .Deply.yml
+        working-directory: .
 
     steps:
     - name: Checkout repository
