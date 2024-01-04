@@ -12,7 +12,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: .home/jonathanaragon/Documents/Mobile-App-Terraform/Deploy.yml
+        working-directory: ${{ branches.main }}
 
     steps:
     - name: Checkout repository
