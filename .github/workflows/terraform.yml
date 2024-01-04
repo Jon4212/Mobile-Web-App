@@ -32,3 +32,6 @@ jobs:
 
     - name: Terraform Apply
       run: terraform apply -auto-approve
+    - name: AWS CLI Commands
+      run: |
+        aws s3 ls 
