@@ -34,4 +34,4 @@ jobs:
       run: terraform apply -auto-approve
     - name: AWS CLI Commands
       run: |
-        aws s3 ls 
+        aws s3 mb s3://cicd-test-bucket
