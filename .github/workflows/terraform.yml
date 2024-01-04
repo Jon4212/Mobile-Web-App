@@ -12,7 +12,7 @@ jobs:
 
     defaults:
       run:
-        working-directory:
+        working-directory: ./home/jonathanaragon/Documents
 
     steps:
     - name: Checkout repository
